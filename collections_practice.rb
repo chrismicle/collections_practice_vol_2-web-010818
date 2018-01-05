@@ -1,7 +1,7 @@
 def begins_with_r(array)
   i = 0 
   while i < array.length
-    if array[i].starts_with?("r")
+    if array[i].start_with?("r")
       true 
     else
       false 
