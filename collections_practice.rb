@@ -8,5 +8,8 @@ def begins_with_r(array)
       false 
     end
    i += 1
+   end
+ else 
+   puts "No block given!"
  end
 end
