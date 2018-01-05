@@ -1,7 +1,7 @@
-def begins_with_r(array, element)
+def begins_with_r(array)
   i = 0 
   while i < array.length
-    if element[i].start_with?("r")
+    if yield(array[i]).start_with?("r")
       true 
     else
       false 
